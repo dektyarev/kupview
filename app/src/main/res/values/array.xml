@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="request_parameter_keys">
+        <item>api_key</item>
+        <item>city_id</item>
+        <item>method</item>
+        <item>category_id</item>
+        <item>offset</item>
+        <item>limit</item>
+    </string-array>
+
+    <string-array name="request_parameter_values">
+        <item>ca3e173c79f471cc04d53ce6b349d9cf</item>
+        <item>1</item>
+        <item>get_offer_coupons</item>
+        <item>26</item>
+        <item>0</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="default_margin">16dp</dimen>
+
+    <dimen name="offer_list_item_padding">16dp</dimen>
+
+    <dimen name="label_padding">12dp</dimen>
+
+</resources>

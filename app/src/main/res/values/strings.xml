@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kupanda</string>
+
+    <string name="offer_list_loading">Загружаю предложения...</string>
+    <string name="offer_list_loading_failed">Не удалось загрузить предложения</string>
+
+    <string name="service_url">http://apimobile.kupanda.ru</string>
+
+</resources>

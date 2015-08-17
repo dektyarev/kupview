@@ -1,0 +1,35 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="offer" type="net.dektyarev.kupandaviewer.model.OfferItem"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/default_margin"
+        tools:context="net.dektyarev.kupandaviewer.OfferDetailsFragment">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/offer_image"
+            android:src="@drawable/no_image"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingTop="@dimen/label_padding"
+            android:layout_gravity="left"
+            android:id="@+id/offer_title"
+            android:text="@{offer.title}" />
+
+    </LinearLayout>
+
+</layout>
